@@ -52,7 +52,6 @@ If the application is in root, no errors are raised:
   "emulators": {
     "apphosting": {
       "port": 4200,
-      "host": "127.0.0.1",
       "rootDirectory": "./",
       "startCommand": "npm run dev"
     }
