@@ -43,3 +43,19 @@ Error: An unexpected error has occurred.
 
 Not reproducible using firebase-tools v13.28.0, v13.29.0, v13.29.1 <br>
 Reproducible on v13.29.2
+
+Issue only seems to occur when the application is in a sub-directory(like `./frontend`).
+If the application is in root, no errors are raised:
+
+```json
+{
+  "emulators": {
+    "apphosting": {
+      "port": 4200,
+      "host": "127.0.0.1",
+      "rootDirectory": "./",
+      "startCommand": "npm run dev"
+    }
+  }
+}
+```
