@@ -1,0 +1,9 @@
+{
+  "emulators": {
+    "apphosting": {
+      "port": 4200,
+      "rootDirectory": "./frontend",
+      "startCommand": "npm run dev"
+    }
+  }
+}
